@@ -1,0 +1,28 @@
+canvas{
+    border: 1px solid #000;
+    display: block;
+    margin: 0 auto;
+
+}
+body{
+background:#4aaf53;
+}
+
+img{
+    height: 10vh;
+    margin: 10px auto;
+    display: block;
+    user-select: none;
+}
+
+
+
+@media only screen and (max-width: 350px){
+    canvas{
+        width: 250px!important;
+    }
+
+    img{
+        height: 7vh;
+    }
+  }
