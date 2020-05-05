@@ -14,15 +14,3 @@ img{
     display: block;
     user-select: none;
 }
-
-
-
-@media only screen and (max-width: 350px){
-    canvas{
-        width: 250px!important;
-    }
-
-    img{
-        height: 7vh;
-    }
-  }
